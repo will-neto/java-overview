@@ -14,7 +14,6 @@ public class AccessModifiers {
         //publicClass.propriedadePrivada = "NÃO É POSSÍVEL, POIS ESTÁ LIMITADA A VISUALIZAÇÃO/EDIÇÃO APENAS DENTRO DA MESMA CLASSE";
         publicClass.valoresPropriedades();
 
-
         System.out.println("\nVisibilidade Propriedades da InheritedPublicClass (Subclass da PublicClass)");
         InheritedPublicClass inheritedPublicClass = new InheritedPublicClass();
         inheritedPublicClass.propriedadePublica = "ACESSIVEL EM QUALQUER CANTO!";
@@ -25,6 +24,8 @@ public class AccessModifiers {
         //inheritedPublicClass.propriedadePrivada = "NÃO É POSSÍVEL A CHAMADA, POIS NEM A SUBCLASSE TEM ACESSO, APESAR DE HERDADE";
         inheritedPublicClass.valoresPropriedades();
 
+
+        // OS MESMOS MODIFICADORES PODEM SER UTILIZADOS EM CLASSE
     }
 
 
