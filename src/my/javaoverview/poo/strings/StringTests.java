@@ -33,9 +33,9 @@ public class StringTests {
                         será utilizada a mesma referência já existente na Heap. Deste modo, nada será criado (apenas a variável)**
         */
 
-        // Cria um objeto no pool de strings com o valor "Maçã" e uma referência na heap que aponta para esse objeto.
+        // Cria um objeto no pool de strings (dentro da Heap) com o valor "Maçã" e uma referência na Stack que aponta para esse objeto.
         String maca = "Maçã";
-        // Verifica se "Maçã" já existe no pool de strings e utiliza a referência já existente, sem criar um novo objeto na heap.
+        // Verifica se "Maçã" já existe no pool de strings e utiliza a referência (na Stack) já existente, sem criar um novo objeto na heap.
         String maca2 = "Maçã";
 
         // Cria um objeto na heap com o valor "Maçã". Não é criado nenhum objeto no pool de strings.
