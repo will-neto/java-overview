@@ -2,7 +2,7 @@ package my.javaoverview.loops;
 
 import java.util.Random;
 
-public class Foreach {
+public class ForeachTest {
     public static void main(String[] args) {
         System.out.println("== Foreach ==");
 

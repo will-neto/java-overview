@@ -1,6 +1,6 @@
 package my.javaoverview.poo.inheritance;
 
-public class Inheritance {
+public class InheritanceTest {
     public static void main(String[] args) {
 
         System.out.println("\n== Herança ==");

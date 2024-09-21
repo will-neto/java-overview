@@ -3,7 +3,7 @@ package my.javaoverview.poo.access.modifiersTest;
 import my.javaoverview.poo.access.modifiers.InheritedPublicClass;
 import my.javaoverview.poo.access.modifiers.PublicClass;
 
-public class AccessModifiers {
+public class AccessModifiersTest {
 
     public static void main(String[] args) {
 

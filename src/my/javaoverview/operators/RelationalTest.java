@@ -1,6 +1,6 @@
 package my.javaoverview.operators;
 
-public class Relational {
+public class RelationalTest {
     public static void main(String[] args) {
         System.out.println("Operadores Relacionais");
         System.out.println("Operadores que comparam valores e retornam um resultado booleano = verdadeiro ou falso");

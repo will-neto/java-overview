@@ -1,6 +1,6 @@
 package my.javaoverview.conditionals;
 
-public class IfStatement {
+public class IfStatementTest {
     public static void main(String[] args) {
         System.out.println("Estruturas Condicional - IF / ELSE / ELSE IF");
 

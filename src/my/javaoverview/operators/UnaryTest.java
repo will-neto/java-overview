@@ -1,6 +1,6 @@
 package my.javaoverview.operators;
 
-public class Unary {
+public class UnaryTest {
     public static void main(String[] args) {
         System.out.println("Operadores Unários");
 

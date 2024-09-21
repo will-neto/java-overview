@@ -1,6 +1,6 @@
 package my.javaoverview.lists;
 
-public class ArraysMultidimensional {
+public class ArraysMultidimensionalTest {
     public static void main(String[] args) {
         System.out.println("== Arrays Multidimensionais (Matrizes Regulares)");
 

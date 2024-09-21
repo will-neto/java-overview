@@ -1,6 +1,6 @@
 package my.javaoverview.loops;
 
-public class WhileLoop {
+public class WhileLoopTest {
     public static void main(String[] args) {
         System.out.println("Estruturas de Repetição - While / Do-While");
 

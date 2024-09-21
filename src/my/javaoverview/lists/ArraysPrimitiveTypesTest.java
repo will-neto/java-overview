@@ -1,6 +1,6 @@
 package my.javaoverview.lists;
 
-public class ArraysPrimitiveTypes {
+public class ArraysPrimitiveTypesTest {
     public static void main(String[] args) {
 
         System.out.println("== Arrays com tipos primitivos ==");

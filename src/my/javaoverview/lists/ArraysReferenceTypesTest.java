@@ -1,6 +1,6 @@
 package my.javaoverview.lists;
 
-public class ArraysReferenceTypes {
+public class ArraysReferenceTypesTest {
     public static void main(String[] args) {
 
         System.out.println("== Arrays com tipos de referênciaa ==");

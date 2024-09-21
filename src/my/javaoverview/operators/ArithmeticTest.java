@@ -1,6 +1,6 @@
 package my.javaoverview.operators;
 
-public class Arithmetic {
+public class ArithmeticTest {
     public static void main(String[] args) {
         System.out.println("Operadores Aritméticos");
 

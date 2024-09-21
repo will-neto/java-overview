@@ -1,6 +1,6 @@
 package my.javaoverview.poo.errors.exceptions;
 
-public class UncheckedExceptionsTest {
+public class UncheckedExceptionTest {
     public static void main(String[] args) {
         System.out.println("== Unchecked Exceptions ==");
 

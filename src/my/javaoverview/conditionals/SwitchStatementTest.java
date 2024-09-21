@@ -1,6 +1,6 @@
 package my.javaoverview.conditionals;
 
-public class SwitchStatement {
+public class SwitchStatementTest {
     public static void main(String[] args) {
         System.out.println("Estruturas Condicionais - SWITCH");
 

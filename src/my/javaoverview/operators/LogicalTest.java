@@ -1,6 +1,6 @@
 package my.javaoverview.operators;
 
-public class Logical {
+public class LogicalTest {
     public static void main(String[] args) {
         System.out.println("Operadores Lógicos");
 

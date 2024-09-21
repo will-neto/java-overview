@@ -1,6 +1,6 @@
 package my.javaoverview.operators;
 
-public class CompoudAssignment {
+public class CompoudAssignmentTest {
     public static void main(String[] args) {
         System.out.println("Operadores de Atribuição Composta");
 

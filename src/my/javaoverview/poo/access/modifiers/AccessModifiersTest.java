@@ -1,6 +1,6 @@
 package my.javaoverview.poo.access.modifiers;
 
-public class AccessModifiers {
+public class AccessModifiersTest {
 
     public static void main(String[] args) {
 

@@ -1,6 +1,6 @@
 package my.javaoverview.loops;
 
-public class ForLoop {
+public class ForLoopTest {
     public static void main(String[] args) {
         System.out.println("Estruturas de Repetição - For");
 
