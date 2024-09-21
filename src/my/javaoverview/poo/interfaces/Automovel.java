@@ -18,7 +18,8 @@ public interface Automovel {
 
 
     // Podem conter métodos abstratos, que deve ser obrigatoriamente sobrescrito pela subclasse
-    void freiar();
+    // a palavra chave abstract é atribuida implicitamente, pois é o estado padrao de um método
+    abstract void freiar();
 
     // Podem conter método default o que não exige obrigatoriedade de sobrescrita
     default void abrirPorta(){
