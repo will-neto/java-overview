@@ -24,6 +24,7 @@ public interface Automovel {
     // Podem conter método default o que não exige obrigatoriedade de sobrescrita
     default void abrirPorta(){
         System.out.println("Abrindo porta!");
+        abrindo();
     }
 
     static void ligarLuz(){
@@ -35,5 +36,10 @@ public interface Automovel {
     // que não são visiveis por subclasses ou por qualquer outra área do código
     private static void clicarBotaoLigarLuz(){
         System.out.println("Clicando botão de ligar luz...");
+    }
+
+    // É possível ter métodos normais privados
+    private void abrindo() {
+        System.out.println("Puxando... Abriu!!");
     }
 }
