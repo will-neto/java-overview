@@ -3,7 +3,7 @@ package my.javaoverview.poo.errors.exceptions;
 import java.io.File;
 import java.io.IOException;
 
-public class CheckedExceptionsTests {
+public class CheckedExceptionsTest {
     public static void main(String[] args) throws IOException {
 
         System.out.println("== Checked Exceptions == ");
