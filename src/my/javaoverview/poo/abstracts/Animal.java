@@ -2,7 +2,8 @@ package my.javaoverview.poo.abstracts;
 
 // Uma classe abstrata é uma classe que não pode ser instânciada
 // Seu principal propósito é ser herdada por outra classe
-public abstract class Animal {
+// Uma classe abstrata pode herdar outra classe (normal ou abstrata) caso não exista herança circular (a outra classe não pode herdar ela)
+public abstract class Animal  {
 
     // Podem possuir campos normais
     public String nome;
