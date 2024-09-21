@@ -25,13 +25,14 @@ public class StringBuilderTest {
 
         System.out.println("\n\n== Demais Métodos String Builder ==\n");
 
-        System.out.println("-- Delete\n");
-
         StringBuilder sb = new StringBuilder(
                 "There were bells on a hill\n" +
-                "But I never heard them ringing\n" +
-                "No, I never heard them at all\n" +
-                "'Til there was you\n");
+                        "But I never heard them ringing\n" +
+                        "No, I never heard them at all\n" +
+                        "'Til there was you\n");
+
+
+        System.out.println("-- Delete\n");
 
         System.out.println("Caracteres " + sb.length() + ":\n" + sb);
 
@@ -39,14 +40,26 @@ public class StringBuilderTest {
 
         System.out.println("Caracteres " + sb.length() + ":\n" + sb);
 
-
         System.out.println("-- Insert\n");
-
-        System.out.println("Caracteres " + sb.length() + ":\n" + sb);
 
         sb.insert(0, "There were bells on a hill");
 
         System.out.println("Caracteres " + sb.length() + ":\n" + sb);
+
+        System.out.println("-- Reverse\n");
+
+        sb.reverse();
+
+        System.out.println("Caracteres " + sb.length() + ":\n" + sb);
+
+        sb.reverse();
+
+        System.out.println("-- Replace\n");
+
+        sb.replace(0, 1, "ª T");
+
+        System.out.println(sb);
+
     }
 
 
