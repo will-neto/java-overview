@@ -9,7 +9,7 @@ public class CalendarMethodsTest {
         // Obtem uma instancia de calendario com as configurações do ambiente local
         Calendar agora = Calendar.getInstance();
 
-        System.out.println("getTime() = " + agora.getTime()); // Data em formato longo
+        System.out.println("getTime() = " + agora.getTime()); // Retorna um tipo "Date"
         System.out.println("getCalendarType() = " + agora.getCalendarType()); // Tipo do calendário
         System.out.println("getFirstDayOfWeek() = " + agora.getFirstDayOfWeek()); // Primeiro dia da semana. Pode ser domingo ou segunda dependendo do país
         System.out.println("getMinimalDaysInFirstWeek() = " + agora.getMinimalDaysInFirstWeek());
