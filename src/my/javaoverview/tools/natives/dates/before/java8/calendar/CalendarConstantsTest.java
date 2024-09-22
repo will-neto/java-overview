@@ -2,7 +2,7 @@ package my.javaoverview.tools.natives.dates.before.java8.calendar;
 
 import java.util.Calendar;
 
-public class CalendarConstants {
+public class CalendarConstantsTest {
     public static void main(String[] args) {
         // A classe abstrata Calendar possui inumeras constantes que podem auxiliar durante a utilização de métodos
         // da mesma
@@ -10,7 +10,9 @@ public class CalendarConstants {
         // É importante a utilização de constantes em métodos que solicitem, pois alguns países podem ter diferenças
         // na específicação de datas/horas
 
+
         System.out.println("\n== Medidas temporais ==");
+        // Medidas temporais podem ser usados em métodos
 
         System.out.println("Calendar.ERA = + " + Calendar.ERA);
         System.out.println("Calendar.YEAR = + " + Calendar.YEAR);
@@ -30,7 +32,10 @@ public class CalendarConstants {
         System.out.println("Calendar.MILLISECOND = + " + Calendar.MILLISECOND);
         System.out.println("Calendar.ZONE_OFFSET = + " + Calendar.ZONE_OFFSET);
         System.out.println("Calendar.DST_OFFSET = + " + Calendar.DST_OFFSET);
+
+
         System.out.println("Calendar.FIELD_COUNT = + " + Calendar.FIELD_COUNT);
+
 
         System.out.println("\n== Meses ==");
 
