@@ -1,9 +1,11 @@
-package my.javaoverview.tools.natives.dates.before.java8;
+package my.javaoverview.tools.natives.dates.before.java8.date;
 
 import java.util.Date;
 
 public class DateTest {
     public static void main(String[] args) {
+        System.out.println("== Date ==");
+
         // Classe usada antes do java 8
         // Foi descontinuada devido problemas de mutabilidade, falta de intuitividade devido não fornecer métodos necessários
         //  para manipulação de dados, não suportar fuso horário, etc.
