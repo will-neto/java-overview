@@ -1,8 +1,6 @@
-package my.javaoverview.tools.natives.dates.before.java8.formats;
+package my.javaoverview.tools.natives.dates.before.java8.formats.dateformat;
 
-import java.sql.SQLOutput;
 import java.text.DateFormat;
-import java.util.Calendar;
 
 public class DateFormatTest {
     public static void main(String[] args) {

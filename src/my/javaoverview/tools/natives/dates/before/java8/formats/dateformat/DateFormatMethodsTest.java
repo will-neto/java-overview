@@ -1,4 +1,4 @@
-package my.javaoverview.tools.natives.dates.before.java8.formats;
+package my.javaoverview.tools.natives.dates.before.java8.formats.dateformat;
 
 import java.text.DateFormat;
 import java.text.FieldPosition;
